@@ -1,0 +1,40 @@
+/* common style  */
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* headar or bannnar style  */
+header {
+    background: rgba(229, 84, 115, 0.10);
+    padding: 0 100px;
+}
+
+.lets-make-secton {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-heading {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.section-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.button-primary {
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFF;
+    padding: 20px 43px;
+}
