@@ -15,6 +15,16 @@ body {
     font-weight: 800;
 }
 
+.button-primary {
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFF;
+    padding: 20px 43px;
+}
+
 /* headar or bannnar style  */
 header {
     background: rgba(229, 84, 115, 0.10);
@@ -40,15 +50,7 @@ header {
 
 }
 
-.button-primary {
-    border-radius: 8px;
-    background: #E55473;
-    border: none;
-    font-size: 20px;
-    font-weight: 700;
-    color: #FFF;
-    padding: 20px 43px;
-}
+
 
 /* our featured folwer section start  */
 .our-featured-flowers p {
@@ -123,4 +125,29 @@ header {
 
 .instagram-images img {
     width: 25%;
+}
+
+/* get the latest deal section start  */
+.get-the-letest-deal {
+    text-align: center;
+}
+
+.best-deal-container {
+    background-image: url("../asset/images/Rectangle\ 9.png");
+}
+
+
+.get-the-letest-deal p {
+    text-align: center;
+
+}
+
+.get-the-letest-deal input[type="text"] {
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFF;
+    padding: 20px 43px;
 }
