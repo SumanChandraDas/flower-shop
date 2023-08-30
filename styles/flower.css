@@ -86,4 +86,24 @@ header {
 
 }
 
-/* Our featured section start  */
+/* Hot deal section start  */
+.hot-deal {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-top: 128px;
+    padding: 50px 0;
+}
+
+.hot-deal-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hot-deal-section-title span {
+    color: #E55473;
+}
+
+.hot-deal-item-description {
+    max-width: 50%;
+}
