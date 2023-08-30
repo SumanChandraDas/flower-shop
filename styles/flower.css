@@ -107,3 +107,20 @@ header {
 .hot-deal-item-description {
     max-width: 50%;
 }
+
+/* instagram section start  */
+.instagram-section p {
+    text-align: center;
+}
+
+.instagram-images {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    max-width: 100%;
+    margin-top: 48px;
+}
+
+.instagram-images img {
+    width: 25%;
+}
