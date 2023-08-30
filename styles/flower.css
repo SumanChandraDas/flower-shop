@@ -4,6 +4,17 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.common-spacing {
+    padding: 0 100px;
+}
+
+.section-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
 /* headar or bannnar style  */
 header {
     background: rgba(229, 84, 115, 0.10);
@@ -38,3 +49,41 @@ header {
     color: #FFF;
     padding: 20px 43px;
 }
+
+/* our featured folwer section start  */
+.our-featured-flowers p {
+    text-align: center;
+    margin-top: 0px;
+}
+
+.flower-tree-container {
+    margin-top: 42px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 24px;
+}
+
+.flower-tree {
+    border-radius: 300px 300px 0px 0px;
+}
+
+#flower-tree-1 {
+    background: rgba(167, 33, 98, 0.15);
+}
+
+#flower-tree-2 {
+    background: rgba(5, 151, 160, 0.15);
+}
+
+#flower-tree-3 {
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.flawer-tree-link {
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* Our featured section start  */
