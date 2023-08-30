@@ -151,3 +151,20 @@ header {
     color: #FFF;
     padding: 20px 43px;
 }
+
+/* footer style  */
+footer {
+    margin-top: 50px;
+    background: #d8cece;
+    padding: 50px 0;
+}
+
+footer .section-title,
+.section-description {
+    text-align: center;
+}
+
+small {
+    display: block;
+    text-align: center;
+}
